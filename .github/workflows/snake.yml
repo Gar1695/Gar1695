@@ -1,0 +1,33 @@
+name: Generate Snake Animation
+
+on:
+  schedule: # Ejecutar cada 12 horas
+    - cron: "* */12 * * *"
+
+  workflow_dispatch: # Permitir la ejecución manual
+
+  push:
+    branches:
+      - master # Cambia a 'main' si tu rama principal se llama así
+
+jobs:
+  generate:
+    permissions:
+      contents: write # Permiso para escribir en el repositorio
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generar snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Gar1695 # Tu nombre de usuario en GitHub
+          outputs: dist/snake.svg?palette=github-dark
+
+      - name: Subir snake.svg a la rama de salida
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output # Asegúrate de que esta rama exista
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Asegúrate de que el token esté disponible
