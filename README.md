@@ -11,9 +11,6 @@
   <a href="https://www.youtube.com/tu-canal-youtube">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
   </a>
-  <a href="https://twitter.com/tu-perfil-twitter">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  </a>
 </div>
 
 ###
@@ -32,7 +29,7 @@
 
 ###
 
-<p align="left">I'm Gilberto from Panamá.<br><br>- 🔭 I’m a cybersecurity student.<br>- 📚 I'm currently learning about secure databases and honeypots.<br>- ⚡ In my free time, I enjoy exploring new technologies and working on my GitHub projects.</p>
+<p align="left">I'm Gilberto from Panamá.<br><br>- 🔭 I’m a cybersecurity student.<br>- 📚 I'm currently learning about secure databases and honeypots.<br>- ⚡ In my free time, I dedicate myself to learning new technologies and practicing every day to improve my skills.</p>
 
 ###
 
@@ -45,7 +42,12 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="40" alt="ubuntu logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg" />
+  <img width="12" />
 </div>
 
 
